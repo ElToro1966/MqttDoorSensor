@@ -1,0 +1,19 @@
+{
+    "wifi": {
+        "ssid": "*****",
+        "password": "*******",
+        "retries": 3
+    },
+    "mqtt": {
+        "server": "10.0.0.7",
+        "client_id": "HomeAssistant",
+        "topic": "HomeAssistant/Gate/Detector_G03", 
+        "connection_check_topic": "HomeAssistant/ConnectedClients/Detector_G03",
+        "led": "red"
+    },
+    "time": {
+            "comment": "Regarding ntp_delta, 2208988800 is GMT, GMT+2 is 2208988800 - 2x3600",
+            "ntp_delta": 2208981600,
+            "ntp_host": "pool.ntp.org"
+    }
+}
